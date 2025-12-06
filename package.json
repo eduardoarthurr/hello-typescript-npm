@@ -1,0 +1,18 @@
+{
+  "name": "projeto-typescript",
+  "version": "1.0.0",
+  "description": "Projeto para instalaçao do NPM ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Arthur",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}
