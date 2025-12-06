@@ -4,6 +4,9 @@
   "description": "Projeto para instalaçao do NPM ",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node src/app.ts",
+    "build": "tsc",
+    "start:js": "node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Eduardo Arthur",
@@ -13,6 +16,7 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@types/node": "^24.10.1"
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2"
   }
 }
